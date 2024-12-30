@@ -30,8 +30,12 @@ public class OpenChromeBrowser {
 			else
 			{
 				System.out.println("Test case failed. Title is not matching");
+				// screenshot code. 
 			}
+			driver.quit();
 		}
+		
+		
 		catch(Exception ex)
 		{
 			ex.printStackTrace();
