@@ -4,12 +4,20 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class O1_OpenChrome
 {
+	static {
+		System.out.println("I am static block, SIB ");
+	}
+	
+	{
+		System.out.println("Non static block , IIB");
+	}
 	
 	O1_OpenChrome()
 	{
 		// default constructor.
 		System.out.println("Running constructor");
 	}
+	
 	public static WebDriver driver;  // global varaible. (static or non static)
 	int a =10; // non static variable. 
 	static int c = 30;// global static variable
@@ -31,6 +39,7 @@ public class O1_OpenChrome
         
         O1_OpenChrome c1 = new O1_OpenChrome();
         O1_OpenChrome c2 = new O1_OpenChrome();
+        
         System.out.println(c1.a);
         System.out.println(c);
         System.out.println(b);
