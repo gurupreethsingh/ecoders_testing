@@ -35,7 +35,7 @@ public class O1_OpenAllBlogsPage implements AutomationConstantsBlogs
 		    System.out.println(actualTitle);
 		    
 		    // expected title 
-		    String expectedTitle = "All Blogs - Bonmillette";
+		    String expectedTitle = "All Blogs - Bonmillettehhjggjhg";
 		    
 
 		         if(actualTitle.equals(expectedTitle))
@@ -47,7 +47,7 @@ public class O1_OpenAllBlogsPage implements AutomationConstantsBlogs
 		        	 System.out.println("Title didnt matched, Test case failed. Screenshot saved");
 			    	TakesScreenshot ts   = (TakesScreenshot)driver; 
 			    	File ramlocation = ts.getScreenshotAs(OutputType.FILE);
-			    	File hardDiskLocation =new File(screenshotFolder +"/all_blogs_title.jpg");
+			    	File hardDiskLocation =new File(screenshotFolder +"/all_blogs_title1.jpg");
 			    	Files.copy(ramlocation, hardDiskLocation);
 			    	
 		         }
