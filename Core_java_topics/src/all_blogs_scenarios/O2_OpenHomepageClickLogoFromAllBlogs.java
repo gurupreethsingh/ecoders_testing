@@ -85,10 +85,8 @@ public class O2_OpenHomepageClickLogoFromAllBlogs implements AutomationConstants
 	    	
 		}
 	   
-	    
 	    // make the program sleep for 5 mins. 
-	    Thread.sleep(5000);
-	    
+	    Thread.sleep(5000); 
 	    // close the browser. 
 	    driver.quit();
 	    
