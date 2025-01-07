@@ -12,7 +12,7 @@ public class O2_OpenFirefox
       try
       {
     	 // open chrome browser.
-        driver = new FirefoxDriver();  
+    	 driver = new FirefoxDriver();  
         System.out.println("Firefox browser opened successfully.");
         
         // make the program stop for 5 seconds. 
