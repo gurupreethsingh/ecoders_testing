@@ -44,12 +44,14 @@ public class O31OpenInstaFooterHp {
           Thread.sleep(1000);
           js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
           Thread.sleep(1000);
-          //find the shop link. 
+          
+          //find the instagram link. 
         	 WebElement instaLink =  driver.findElement(By.xpath("(//*[name()='svg'])[12]"));
         	 instaLink.click();
         	 Thread.sleep(1000);
         	 
         	 Set<String> windowHandles = driver.getWindowHandles();
+        	 
              List<String> windowHandlesList = new ArrayList<String>(windowHandles);
         	 
              for (String windowHandle : windowHandlesList) {
