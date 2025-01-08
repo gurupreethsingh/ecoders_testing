@@ -65,7 +65,4 @@ public class Pattern170{
 			System.out.println();
 		}
 	}
-	
-	
-	
 }
