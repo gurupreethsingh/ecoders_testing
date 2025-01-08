@@ -42,11 +42,13 @@ public class O11_GetCoreValueSectionAllTextsHp {
           Thread.sleep(1000);
           //find the shop link. 
 
-     
+          int paranumber=1;
           for(int i = 4; i<= 16; i++)
           {
+        	 
         	 String coreValueSectionTexts =  driver.findElement(By.xpath("(//p)["+i+"]")).getText();
-        	 System.out.println(coreValueSectionTexts);
+        	 System.out.println(paranumber +" :: " + coreValueSectionTexts);
+        	 paranumber++;
         	 System.out.println("\n*******************************************************\n");
         	 Thread.sleep(500);
           }
