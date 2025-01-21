@@ -1,4 +1,4 @@
-package database_testing_mysql_java_guru;
+package src.database_testing_mysql_java_guru;
 
 import java.sql.*;
 import java.util.Scanner;
